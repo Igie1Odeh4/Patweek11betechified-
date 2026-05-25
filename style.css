@@ -844,19 +844,27 @@ section.testimonials .container{
     padding: 5rem 1rem;
   }
 
-  section.contact form {
-    width: 100%;
-  }
+ section.contact form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto; /* THIS is what centers it on mobile */
+}
+section.contact {
+  padding: 2rem 1rem;
+}
 
-  section.contact form input,
-  section.contact form textarea {
-    width: 100%;
-  }
+ section.contact form input,
+section.contact form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
 
 /* CONTAINER */
 section.contact .container{
   width: 60%;
-  max-width: 700px;
+  max-width: 600px;
 
   margin: 0 auto;
   text-align: center;
