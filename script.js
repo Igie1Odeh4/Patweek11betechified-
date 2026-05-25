@@ -67,3 +67,27 @@ skillItems.forEach((item) => {
 
   });
 });
+
+// SELECT ELEMENTS
+const readMoreBtn = document.querySelector(".read-more");
+const readMoreContent = document.querySelector(".read-more-content");
+
+// CLICK EVENT
+readMoreBtn.addEventListener("click", function (e) {
+
+  e.preventDefault();
+
+  // TOGGLE CONTENT
+  if (readMoreContent.style.display === "block") {
+
+    readMoreContent.style.display = "none";
+    readMoreBtn.textContent = "Show More";
+
+  } else {
+
+    readMoreContent.style.display = "block";
+    readMoreBtn.textContent = "Show Less";
+
+  }
+
+});
