@@ -1265,8 +1265,6 @@ footer .logo h3{
     gap: 1rem;
   }
 }
-
-
 /* EXTRA SMALL PHONES */
 
 @media screen and (max-width: 480px){
